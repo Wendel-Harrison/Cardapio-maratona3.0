@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    font-family: "Roboto";
+}
+
+:root {
+    --primary-color: #ffedd5;
+    --second-color: #fed7aa;
+    --button-color: rgba(153, 80, 0, 1);
+    --paragraph-color: rgba(0, 0, 0, 0.6)
+}
+
+main {
+    width: 30rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}  
+
+h1, h2, h3, .price{
+    text-transform: uppercase;
+}
+
+span {
+    color: var(--button-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30rem;
+ 
+
+}
+
+header h1, span {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    margin-top: 3.2rem;
+
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 3.2rem;
+    color: var(--paragraph-color);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    margin-bottom: 2.4rem;
+}
+
+section li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+section h2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    width: 30rem;
+    background-color: var(--second-color);
+    justify-content: center;
+    padding-block: .8rem;
+}
+
+
+
+section p {
+    color: var(--paragraph-color);
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+.price {
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+}
